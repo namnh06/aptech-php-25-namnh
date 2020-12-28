@@ -1,0 +1,17 @@
+.div-mot{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}
+
+.div-hai{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+}
+
+.div-cha{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
