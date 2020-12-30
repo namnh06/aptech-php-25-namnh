@@ -1,0 +1,28 @@
+.div-cha {
+    display:flex;
+    flex-direction: row;
+}
+
+.div-mot {
+    width: 50%;
+    background-color: lightblue;
+}
+
+.div-mot-p {
+    padding: 10px;
+    border: 5px solid orange;
+    margin: 20px; 
+}
+
+.div-hai {
+    width: 50%;
+    background-color: lightcoral;
+}
+
+.gian-cach-10-px {
+    margin: 10px;
+}
+
+.text-red {
+    color: red;
+}
