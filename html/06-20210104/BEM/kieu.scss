@@ -1,0 +1,29 @@
+.Cha{
+    color:red;
+    &__Con-Mot {
+        color:blue;
+        &--width {
+            width: 100px;
+        }
+        &--height {
+            height: 100px;
+        }
+        &--bg-blue {
+            background-color:blue;
+        }
+    }
+    &__Con-Hai {
+        &--width {
+            width: 100px;
+        }
+    }
+}
+
+.text{
+    &-danger{
+        color:red;
+    }
+    &-warning{
+        color:yellow;
+    }
+}

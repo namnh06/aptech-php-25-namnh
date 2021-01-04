@@ -1,0 +1,32 @@
+.Cha {
+  color: red;
+}
+
+.Cha__Con-Mot {
+  color: blue;
+}
+
+.Cha__Con-Mot--width {
+  width: 100px;
+}
+
+.Cha__Con-Mot--height {
+  height: 100px;
+}
+
+.Cha__Con-Mot--bg-blue {
+  background-color: blue;
+}
+
+.Cha__Con-Hai--width {
+  width: 100px;
+}
+
+.text-danger {
+  color: red;
+}
+
+.text-warning {
+  color: yellow;
+}
+/*# sourceMappingURL=kieu.css.map */
