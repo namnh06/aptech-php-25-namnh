@@ -1,0 +1,43 @@
+.Flag {
+  height: 100vh;
+}
+
+.Flag__Part-1 {
+  width: 250px;
+  height: 250px;
+}
+
+.Flag__Part-2 {
+  width: 250px;
+  height: 250px;
+}
+
+.Flag__Part-3 {
+  width: 250px;
+  height: 250px;
+}
+
+@media screen and (max-width: 1299px) {
+  .Flag__Part-1 {
+    background-color: #28a745 !important;
+  }
+  .Flag__Part-2 {
+    background-color: #007bff !important;
+  }
+  .Flag__Part-3 {
+    background-color: #dc3545 !important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .Flag__Part-1 {
+    background-color: #007bff !important;
+  }
+  .Flag__Part-2 {
+    background-color: #dc3545 !important;
+  }
+  .Flag__Part-3 {
+    background-color: #28a745 !important;
+  }
+}
+/*# sourceMappingURL=style.css.map */

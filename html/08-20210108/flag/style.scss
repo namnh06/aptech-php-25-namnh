@@ -1,0 +1,53 @@
+$one-hundred-pixel: 250px;
+
+.Flag {
+    height: 100vh;
+    &__Part {
+        &-1 {
+            width: $one-hundred-pixel;
+            height: $one-hundred-pixel;
+        }
+        &-2 {
+            width: $one-hundred-pixel;
+            height: $one-hundred-pixel;
+        }
+        &-3 {
+            width: $one-hundred-pixel;
+            height: $one-hundred-pixel;
+        }
+    }
+}
+
+@media screen and (max-width: 1299px){
+    .Flag {
+        
+        &__Part {
+            &-1 {
+                background-color: #28a745 !important;
+            }
+            &-2 {
+                background-color: #007bff !important;
+            }
+            &-3 {
+                background-color: #dc3545 !important;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 767px){
+    .Flag {
+        
+        &__Part {
+            &-1 {
+                background-color: #007bff !important;
+            }
+            &-2 {
+                background-color: #dc3545 !important;
+            }
+            &-3 {
+                background-color: #28a745 !important;
+            }
+        }
+    }
+}
