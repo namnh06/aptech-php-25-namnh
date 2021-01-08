@@ -1,0 +1,58 @@
+.Content__First__And__Second {
+  width: 66.66%;
+}
+
+.Content__First__And__Second__First {
+  width: 50%;
+}
+
+.Content__First__And__Second__Second {
+  width: 50%;
+}
+
+.Content__Third {
+  width: 33.33%;
+}
+
+@media screen and (min-width: 768px) {
+  .Content {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  .Content__First__And__Second {
+    width: 100%;
+  }
+  .Content__First__And__Second__First {
+    width: 50%;
+  }
+  .Content__First__And__Second__Second {
+    width: 50%;
+  }
+  .Content__Third {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .Content {
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: row !important;
+            flex-direction: row !important;
+  }
+  .Content__First__And__Second {
+    width: 66.66%;
+  }
+  .Content__First__And__Second__First {
+    width: 50%;
+  }
+  .Content__First__And__Second__Second {
+    width: 50%;
+  }
+  .Content__Third {
+    width: 33.33%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
