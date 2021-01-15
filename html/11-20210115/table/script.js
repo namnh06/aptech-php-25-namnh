@@ -41,14 +41,21 @@ function inBang() {
 }
 
 // ARRAY IN ARRAY
-var sanPham = [
-  ['iPhone', 10, 'my', 'nhap khau'],
-  ['Galaxy', 12, 'han quoc', 'trong nuoc'],
-  ['xiaomi', 9, 'trung quoc', 'nhap khau'],
-  ['huawei', 15, 'trung quoc', 'buon lau'],
-];
-for (var i = 0; i < sanPham.length; i++) {
-  for (var j = 0; j < sanPham[i].length; j++) {
-    console.log[i][j];
+function inSanPham() {
+  var sanPham = [
+    ['iPhone', 10, 'my', 'nhap khau'],
+    ['Galaxy', 12, 'han quoc', 'trong nuoc'],
+    ['xiaomi', 9, 'trung quoc', 'nhap khau'],
+    ['huawei', 15, 'trung quoc', 'buon lau'],
+  ];
+  var text = '';
+  for (var i = 0; i < sanPham.length; i++) {
+    text += '<tr>';
+    text += '<td>' + (i + 1) + '</td>';
+    for (var j = 0; j < sanPham[i].length; j++) {
+      text += '<td>' + sanPham[i][j] + '</td>';
+    }
+    text += '</tr>';
   }
+  document.getElementById('tableBody').innerHTML = text;
 }
